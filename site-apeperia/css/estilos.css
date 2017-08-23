@@ -1,199 +1,3 @@
-/** Geral **/
-body {
-  font-family: "Roboto Slab", serif; }
-
-.container {
-  width: 940px;
-  margin: 0 auto; }
-
-.titulo-secao {
-  text-decoration: underline;
-  font-size: 2em;
-  text-align: center; }
-
-.sobre,
-.planos,
-.blog,
-.contato {
-  padding: 3em 0 6em 0; }
-
-h2 {
-  margin-top: 0; }
-
-/** Header **/
-header {
-  border-top: 5px solid #C24E4B;
-  background: rgba(30, 44, 53, 0.8);
-  height: 90px;
-  width: 100%;
-  position: absolute; }
-
-header .container {
-  position: relative; }
-
-.menu-opcoes {
-  position: absolute;
-  right: 0;
-  top: -.5em;
-  font-size: 1.2em;
-  font-weight: lighter; }
-  .menu-opcoes ul {
-    padding-left: 0; }
-  .menu-opcoes li {
-    display: inline-block;
-    width: 5em; }
-  .menu-opcoes a {
-    color: white;
-    text-decoration: none; }
-    .menu-opcoes a:hover {
-      text-decoration: underline; }
-
-/** Destaque **/
-.destaque {
-  background: url(../imagens/destaque.jpg) center bottom repeat-x;
-  -webkit-background-size: cover;
-  background-size: cover;
-  color: white;
-  height: 330px;
-  padding-top: 10em; }
-
-.destaque p {
-  width: 30em; }
-
-.destaque p:first-child {
-  width: 30em;
-  font-size: 1.3em;
-  line-height: 1.1; }
-
-.destaque p:first-child:first-line {
-  font-size: 2.2em;
-  font-weight: bold; }
-
-.destaque button {
-  margin-top: 1em;
-  background: #C24E4B;
-  border: 0;
-  padding: .6em;
-  font-size: 1.2em;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  font-weight: bold; }
-
-/** Sobre **/
-.sobre {
-  background: #ebebeb; }
-
-.duas-colunas {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  columns: 1; }
-
-.duas-colunas h3 {
-  margin: 0; }
-
-.sobre p {
-  font: .9em/1.8 sans-serif; }
-
-.sobre p:first-child {
-  margin-bottom: 3em; }
-
-.plataformas {
-  padding: 0; }
-
-.plataformas li {
-  display: inline-block;
-  width: 50px;
-  height: 60px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 1em 1.5em 0 0; }
-
-.plataformas li:nth-child(1) {
-  background-image: url(../imagens/logo-apple.png); }
-
-.plataformas li:nth-child(2) {
-  background-image: url(../imagens/logo-android.png); }
-
-.plataformas li:nth-child(3) {
-  background-image: url(../imagens/logo-windows.png); }
-
-.plataformas li:nth-child(4) {
-  background-image: url(../imagens/logo-blackberry.png); }
-
-/** Planos **/
-.planos {
-  background: #1e2c35; }
-
-.planos h2 {
-  color: #FFFFFF; }
-
-.plano {
-  background: white;
-  width: 18em;
-  display: inline-block;
-  margin: 1em 0 0 1.4em;
-  padding-bottom: 2em; }
-
-.plano:hover {
-  background: #dedede; }
-
-.plano h3 {
-  color: #FFFFFF;
-  font-size: 1.8em;
-  background: #C24E4B;
-  text-align: center;
-  height: 2em;
-  padding-top: .6em;
-  margin-top: 0; }
-
-.plano div {
-  text-align: center;
-  color: #C24E4B;
-  font-size: 2.75em; }
-
-.itens-plano {
-  padding-left: 1.2em; }
-  .itens-plano li {
-    font-size: 1em;
-    list-style: none;
-    border-bottom: 1px solid #acacac;
-    padding: .5em;
-    width: 14.8em; }
-    .itens-plano li:last-child {
-      border: 0; }
-  .itens-plano span {
-    float: right; }
-
-.plano button {
-  background: #C24E4B;
-  border: 0;
-  color: #FFFFFF;
-  width: 210px;
-  height: 38px;
-  font-size: 1.2em;
-  border-radius: 0.3em;
-  -webkit-border-radius: 0.3em;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  margin-left: 2em; }
-
-.icone-check,
-.icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
-  width: 18px;
-  height: 18px; }
-
-.icone-check {
-  background-position: -5px -5px; }
-
-.icone-x {
-  background-position: -33px -5px; }
-
 /** Blog **/
 .blog {
   display: block;
@@ -263,6 +67,39 @@ textarea {
   border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3); }
+
+/** Destaque **/
+.destaque {
+  background: url(../imagens/destaque.jpg) center bottom repeat-x;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: white;
+  height: 330px;
+  padding-top: 10em; }
+
+.destaque p {
+  width: 30em; }
+
+.destaque p:first-child {
+  width: 30em;
+  font-size: 1.3em;
+  line-height: 1.1; }
+
+.destaque p:first-child:first-line {
+  font-size: 2.2em;
+  font-weight: bold; }
+
+.destaque button {
+  margin-top: 1em;
+  background: #C24E4B;
+  border: 0;
+  padding: .6em;
+  font-size: 1.2em;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  font-weight: bold; }
 
 /** Footer **/
 footer {
@@ -346,5 +183,168 @@ footer a {
 
 .social a[href*="instagram"] {
   background-image: url(../imagens/instagram.png); }
+
+/** Geral **/
+body {
+  font-family: "Roboto Slab", serif; }
+
+.container {
+  width: 940px;
+  margin: 0 auto; }
+
+.titulo-secao {
+  text-decoration: underline;
+  font-size: 2em;
+  text-align: center; }
+
+.sobre,
+.planos,
+.blog,
+.contato {
+  padding: 3em 0 6em 0; }
+
+h2 {
+  margin-top: 0; }
+
+/** Header **/
+header {
+  border-top: 5px solid #C24E4B;
+  background: rgba(30, 44, 53, 0.8);
+  height: 90px;
+  width: 100%;
+  position: absolute; }
+
+header .container {
+  position: relative; }
+
+.menu-opcoes {
+  position: absolute;
+  right: 0;
+  top: -.5em;
+  font-size: 1.2em;
+  font-weight: lighter; }
+  .menu-opcoes ul {
+    padding-left: 0; }
+  .menu-opcoes li {
+    display: inline-block;
+    width: 5em; }
+  .menu-opcoes a {
+    color: white;
+    text-decoration: none; }
+    .menu-opcoes a:hover {
+      text-decoration: underline; }
+
+/** Planos **/
+.planos {
+  background: #1e2c35; }
+
+.planos h2 {
+  color: #FFFFFF; }
+
+.plano {
+  background: white;
+  width: 18em;
+  display: inline-block;
+  margin: 1em 0 0 1.4em;
+  padding-bottom: 2em; }
+
+.plano:hover {
+  background: #dedede; }
+
+.plano h3 {
+  color: #FFFFFF;
+  font-size: 1.8em;
+  background: #C24E4B;
+  text-align: center;
+  height: 2em;
+  padding-top: .6em;
+  margin-top: 0; }
+
+.plano div {
+  text-align: center;
+  color: #C24E4B;
+  font-size: 2.75em; }
+
+.itens-plano {
+  padding-left: 1.2em; }
+  .itens-plano li {
+    font-size: 1em;
+    list-style: none;
+    border-bottom: 1px solid #acacac;
+    padding: .5em;
+    width: 14.8em; }
+    .itens-plano li:last-child {
+      border: 0; }
+  .itens-plano span {
+    float: right; }
+
+.plano button {
+  background: #C24E4B;
+  border: 0;
+  color: #FFFFFF;
+  width: 210px;
+  height: 38px;
+  font-size: 1.2em;
+  border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  margin-left: 2em; }
+
+.icone-check,
+.icone-x {
+  background: url(../imagens/sprite.png) no-repeat;
+  width: 18px;
+  height: 18px; }
+
+.icone-check {
+  background-position: -5px -5px; }
+
+.icone-x {
+  background-position: -33px -5px; }
+
+/** Sobre **/
+.sobre {
+  background: #ebebeb; }
+
+.duas-colunas {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  columns: 1; }
+
+.duas-colunas h3 {
+  margin: 0; }
+
+.sobre p {
+  font: .9em/1.8 sans-serif; }
+
+.sobre p:first-child {
+  margin-bottom: 3em; }
+
+.plataformas {
+  padding: 0; }
+
+.plataformas li {
+  display: inline-block;
+  width: 50px;
+  height: 60px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1em 1.5em 0 0; }
+
+.plataformas li:nth-child(1) {
+  background-image: url(../imagens/logo-apple.png); }
+
+.plataformas li:nth-child(2) {
+  background-image: url(../imagens/logo-android.png); }
+
+.plataformas li:nth-child(3) {
+  background-image: url(../imagens/logo-windows.png); }
+
+.plataformas li:nth-child(4) {
+  background-image: url(../imagens/logo-blackberry.png); }
 
 /*# sourceMappingURL=estilos.css.map */
