@@ -1,5 +1,12 @@
+//Import first SASS properties
 @import 'helpers/variaveis';
 @import 'helpers/mixins';
+
+//Import standars
+@import 'base/normalize';
+@import 'base/media-queries';
+
+//Import layout stylesheets
 @import 'layout/blog';
 @import 'layout/contato';
 @import 'layout/destaque';

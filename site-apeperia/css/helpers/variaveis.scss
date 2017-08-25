@@ -1,4 +1,5 @@
 //Variaveis - comentário que reflita somente no SASS
+//Podemos usar funcoes como darken ou lighter para mudar a tonalidade da cor
 $branco: #FFFFFF;
-$cor-padrao: #C24E4B;
-$cor-auxiliar: #1E2C35;
+$cor-padrao: darken(#C24E4B, 30);
+$cor-auxiliar: lighten(#1E2C35, 50);
