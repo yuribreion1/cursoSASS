@@ -6,3 +6,6 @@ $cor-auxiliar: lighten(#1E2C35, 50);
 
 //Ponto de quebra para media queries
 $ponto-quebra: 980px;
+
+//Isolando media queries
+$mq-mobile: "(max-width: 980px)";
