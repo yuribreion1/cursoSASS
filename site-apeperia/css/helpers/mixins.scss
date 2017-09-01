@@ -1,3 +1,6 @@
+//Importando CSS do compass
+@import "compass/css3";
+
 //Mixins, padroes de border
 @mixin borda-arredondada($raio: 0.3em) {
   border-radius: $raio;
@@ -9,10 +12,4 @@
   text-indent: -9999px;
   overflow: hidden;
   background-repeat: no-repeat;
-}
-
-//Usando placeholder para isolar mesmo codigo em varios elementos
-%sombra-padrao {
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
