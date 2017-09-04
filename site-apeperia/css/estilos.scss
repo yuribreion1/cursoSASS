@@ -1,8 +1,10 @@
 //Espacamento entre os sprites, precisa AQUI
 $sprite-spacing: 5px;
+$plataformas-spacing: 9px;
 
 //Fazendo sprite automatico com Compass
 @import 'sprite/*.png';
+@import 'plataformas/*.png';
 
 //Import first SASS properties
 @import 'helpers/variaveis';
