@@ -1,3 +1,9 @@
+//Espacamento entre os sprites, precisa AQUI
+$sprite-spacing: 5px;
+
+//Fazendo sprite automatico com Compass
+@import 'sprite/*.png';
+
 //Import first SASS properties
 @import 'helpers/variaveis';
 @import 'helpers/mixins';

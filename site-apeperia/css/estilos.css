@@ -1,3 +1,13 @@
+.sprite-sprite, .sprite-icone-ok, .sprite-icone-x {
+  background-image: url('../imagens/sprite-s1e035a9ecf.png');
+  background-repeat: no-repeat;
+}
+
+/* Exemplo de Mixin
+@mixin borda-arredondada($raio: 0.3em) {
+  border-radius: $raio;
+  -webkit-border-radius: $raio;
+}*/
 .social li a, .plataformas li {
   text-indent: -9999px;
   overflow: hidden;
@@ -465,8 +475,9 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
-  border-radius: 0.3em;
-  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   border: 2px solid #ccc;
 }
 
@@ -478,12 +489,12 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  border-radius: 0.3em;
-  -webkit-border-radius: 0.3em;
-  -moz-box-shadow: 0px 5px #333333;
-  -webkit-box-shadow: 0px 5px #333333;
-  box-shadow: 0px 5px #333333;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: #000 0 2px 6.65px;
+  -webkit-box-shadow: #000 0 2px 6.65px;
+  box-shadow: #000 0 2px 6.65px;
 }
 
 /** Destaque **/
@@ -523,11 +534,12 @@ textarea {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  border-radius: 50px;
+  -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
-  -moz-box-shadow: 0px 5px #333333;
-  -webkit-box-shadow: 0px 5px #333333;
-  box-shadow: 0px 5px #333333;
+  border-radius: 50px;
+  -moz-box-shadow: #000 0 2px 6.65px;
+  -webkit-box-shadow: #000 0 2px 6.65px;
+  box-shadow: #000 0 2px 6.65px;
   font-weight: bold;
 }
 
@@ -792,27 +804,27 @@ header .container {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  border-radius: 0.3em;
-  -webkit-border-radius: 0.3em;
-  -moz-box-shadow: 0px 5px #333333;
-  -webkit-box-shadow: 0px 5px #333333;
-  box-shadow: 0px 5px #333333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: #000 0 2px 6.65px;
+  -webkit-box-shadow: #000 0 2px 6.65px;
+  box-shadow: #000 0 2px 6.65px;
   margin-left: 2em;
 }
 
-.icone-check,
-.icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
-  width: 18px;
-  height: 18px;
+.sprite-icone-ok {
+  background-position: 0 0;
 }
 
-.icone-check {
-  background-position: -5px -5px;
+.sprite-icone-x {
+  background-position: 0 -23px;
 }
 
-.icone-x {
-  background-position: -33px -5px;
+.sprite-icone-ok,
+.sprite-icone-x {
+  width: 20px;
+  height: 20px;
 }
 
 /** Sobre **/

@@ -1,11 +1,12 @@
 //Importando CSS do compass
 @import "compass/css3";
+@import "compass/utilities";
 
-//Mixins, padroes de border
+/* Exemplo de Mixin
 @mixin borda-arredondada($raio: 0.3em) {
   border-radius: $raio;
   -webkit-border-radius: $raio;
-}
+}*/
 
 //Usando placeholder
 %image-replacement {

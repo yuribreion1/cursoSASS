@@ -15,7 +15,7 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
-  @include borda-arredondada;
+  @include border-radius(10px);
   border: 2px solid #ccc;
 }
 
@@ -27,7 +27,6 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include borda-arredondada;
-  @include single-box-shadow;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  @include border-radius(10px);
+  @include box-shadow(#000 0 2px 6.65px);
 }

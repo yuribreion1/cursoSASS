@@ -61,22 +61,16 @@
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include borda-arredondada;
-  @include single-box-shadow;
+  @include border-radius(10px);
+  @include box-shadow(#000 0 2px 6.65px);
   margin-left: 2em;
 }
 
-.icone-check,
-.icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
-  width: 18px;
-  height: 18px;
-}
+//Carregar o sprite que for gerado pelo compass
+@include all-sprite-sprites;
 
-.icone-check {
-  background-position: -5px -5px;
-}
-
-.icone-x {
-  background-position: -33px -5px;
+.sprite-icone-ok,
+.sprite-icone-x {
+  width: 20px;
+  height: 20px;
 }
