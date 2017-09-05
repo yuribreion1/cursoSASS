@@ -15,10 +15,12 @@
   background-repeat: no-repeat;
 }
 
+//Criando funcao para multiplicar
 @function calculaMultiplicacao ($multiplicador) {
   @return $multiplicador * $tamanho-fonte-padrao;
 }
 
+//Criando funcao para dividir
 @function calculaDivisao ($divisor) {
-  @return $divisor * $tamanho-fonte-padrao;
+  @return round($divisor * $tamanho-fonte-padrao);
 }
