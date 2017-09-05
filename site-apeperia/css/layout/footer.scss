@@ -74,8 +74,8 @@ footer a {
 
 .social li a {
   display: block;
-  width: 55px;
-  height: 55px;
+  width: calculaMultiplicacao(3);
+  height: calculaMultiplicacao(3);
   @extend %image-replacement;
   margin-left: 1em;
 }

@@ -10,10 +10,10 @@
 
 .plano {
   background: white;
-  width: 18em;
+  width: calculaMultiplicacao(16);
   display: inline-block;
   margin: 1em 0 0 1.4em;
-  padding-bottom: 2em;
+  padding-bottom: calculaDivisao(2);
 }
 
 .plano:hover {
@@ -25,7 +25,7 @@
   font-size: 1.8em;
   background: $cor-padrao;
   text-align: center;
-  height: 2em;
+  height: calculaDivisao(3);
   padding-top: .6em;
   margin-top: 0;
 }

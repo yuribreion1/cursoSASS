@@ -14,3 +14,11 @@
   overflow: hidden;
   background-repeat: no-repeat;
 }
+
+@function calculaMultiplicacao ($multiplicador) {
+  @return $multiplicador * $tamanho-fonte-padrao;
+}
+
+@function calculaDivisao ($divisor) {
+  @return $divisor * $tamanho-fonte-padrao;
+}
